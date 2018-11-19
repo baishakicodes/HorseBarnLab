@@ -15,7 +15,7 @@ public class Mustang implements Horse {
     }
     public String toString(){
         String output = "";
-        output += this.getName()+","+"weighs: "+this.getWeight();
+        output += "The horse "+this.getName()+" weighs "+this.getWeight();
         return output;
     }
 }
